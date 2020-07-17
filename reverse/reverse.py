@@ -53,4 +53,5 @@ class LinkedList:
             # if node next is empty set the next node to the previous node
             node.set_next(prev)
             # set the head to node
+            # self.add_to_head(node) doesn't work
             self.head = node

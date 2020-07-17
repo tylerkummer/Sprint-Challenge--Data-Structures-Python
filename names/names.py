@@ -19,8 +19,8 @@ duplicates = []  # Return the list of duplicates in this data structure
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
-# create an instance of Binary Search tree with names_1[0] to start the list at the first element
-instance = BSTNode(names_1[0])
+# create an instance of Binary Search tree with an empty string as a placeholder to start the list
+instance = BSTNode("")
 
 # separate our for loops for better performance
 # loop through our names_1 csv file
